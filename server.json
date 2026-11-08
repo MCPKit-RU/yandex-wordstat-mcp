@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MCPKit-RU/yandex-wordstat-mcp",
+  "title": "MCPKit — Yandex Wordstat MCP",
+  "description": "Research Yandex search demand, trends and regions in ChatGPT. Yandex API charges apply.",
+  "version": "1.0.0",
+  "websiteUrl": "https://mcpkit.ru/mcp-wordstat?utm_source=official_mcp_registry&utm_medium=mcp_registry&utm_campaign=yandex_wordstat",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpkit.ru/mcp-wordstat/mcp"
+    }
+  ]
+}
